@@ -7,8 +7,7 @@
 
 import Combine
 
-@available(macOS 10.15, *)
-public final class ImterestingNumbers {
+public final class ImterestingNumbersDescription {
     
     private let networkManager = NetworkManager()
     

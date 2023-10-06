@@ -5,12 +5,12 @@ import Combine
 
 final class SPMInterestingNumbersTests: XCTestCase {
     
-    var interestingNumber: ImterestingNumbers?
+    var interestingNumber: ImterestingNumbersDescription?
     var cancellable = Set<AnyCancellable>()
     
     override func setUp() {
         super.setUp()
-        interestingNumber = ImterestingNumbers()
+        interestingNumber = ImterestingNumbersDescription()
     }
     
     override func tearDown() {
